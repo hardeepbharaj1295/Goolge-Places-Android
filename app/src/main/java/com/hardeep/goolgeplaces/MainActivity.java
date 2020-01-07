@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         final TextView txtVw = findViewById(R.id.placeName);
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyCmfSxWzzr4v4GyRhEexKJ3ij_6UHEu2hw");
+            // TODO : Insert your key Here
+            Places.initialize(getApplicationContext(), "Insert your Key Here");
         }
 
         // Initialize the AutocompleteSupportFragment.
